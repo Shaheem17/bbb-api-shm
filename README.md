@@ -36,11 +36,11 @@ console.log("Final Response: " + bbb);
 ### Create
 Creates a BigBlueButton meeting.
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object keys please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         name: 'shm',
         meetingID: '123',//Required
         attendeePW: 'qwerty',//recommended
@@ -60,11 +60,11 @@ data = {
 ### Join
 Joins a user to the meeting specified in the meetingID parameter.
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object keys please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         fullName: 'Shaheem M Shereef',//Required
         meetingID: '123',//Required
         password: 'qwerty',//Required
@@ -74,11 +74,11 @@ data = {
 ### isMeetingRunning
 This call enables you to simply check on whether or not a meeting is running by looking it up with your meeting ID.
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         meetingID: '123',//Required
     };
 ```
@@ -86,11 +86,11 @@ data = {
 ### end
 Use this to forcibly end a meeting and kick all participants out of the meeting.
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         meetingID: '123',//Required
         password: 'qwerty',//Required
     };
@@ -99,11 +99,11 @@ data = {
 ### getMeetingInfo
 This call will return all of a meeting’s information, including the list of attendees as well as start and end times.
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         meetingID: '123',//Required
     };
 ```
@@ -114,11 +114,11 @@ This call will return a list of all the meetings found on this server.
 ### getRecordings
 Retrieves the recordings that are available for playback for a given meetingID (or set of meeting IDs).
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         meetingID: '123',//Optional
     };
 ```
@@ -126,11 +126,11 @@ data = {
 ### publishRecordingsAnchor 
 Publish and unpublish recordings for a given recordID (or set of record IDs).
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         recordID: '123',//Required
         publish: 'true',//Required
     };
@@ -139,23 +139,23 @@ data = {
 ### deleteRecordings
 Delete one or more recordings for a given recordID (or set of record IDs).
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         recordID: '123',//Required
     };
 ```
 
 ### updateRecordings
-Update metadata for a given recordID (or set of record IDs).
+Update metabody for a given recordID (or set of record IDs).
 
-#### Sample body JSON
+#### Sample JSON
 To know all the object key please visit: https://docs.bigbluebutton.org/dev/api.html
 
 ```js
-data = {
+body = {
         recordID: '123',//Required
     };
 ```
