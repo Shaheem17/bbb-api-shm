@@ -1,0 +1,13 @@
+{
+  "apiExtension": "/bigbluebutton/api",
+  "createAPI": "create",
+  "joinAPI": "join",
+  "isMeetingRunningAPI": "isMeetingRunning",
+  "endAPI": "end",
+  "getMeetingInfoAPI": "getMeetingInfo",
+  "getMeetingsAPI": "getMeetings",
+  "getRecordingsAPI": "getRecordings",
+  "publishRecordingsAPI": "publishRecordings",
+  "deleteRecordingsAPI":"deleteRecordings",
+  "updateRecordings":"updateRecordings"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "bbb-api-shm",
+  "version": "1.0.0",
+  "description": "Integrate the world's best opensource live streaming platform bigbluebutton on your Node.JS application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaheem M Shereef",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sha1": "^1.1.1",
+    "xml-to-json-promise": "0.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "keywords": [
+    "bigbluebutton",
+    "bbb",
+    "bbb-api-shm",
+    "npm-bbb",
+    "npm-bigbluebutton"
+  ]
+}
