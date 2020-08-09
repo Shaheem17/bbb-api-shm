@@ -3,7 +3,7 @@ let shaconvert = require("sha1");
 let generate = require("../../api/generator");
 let apiCallFunction = require("../../api/apiCall");
 
-exports.create = async (credentials, data) => {
+exports.join = async (credentials, data) => {
   let extension = apiHelper.apiExtension;
   let apiCall = apiHelper.joinAPI;
   let queryParams = await generate.generateQueryParams(data);
