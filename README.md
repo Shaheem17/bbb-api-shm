@@ -3,7 +3,7 @@ Integrate the world's best opensource live streaming platform bigbluebutton on y
 
 ## Install
 ```
-npm i bbb-api-shm
+npm i bbb-api
 ```
 
 ## Get your bigbluebutton server details
@@ -14,7 +14,7 @@ bbb-config --secret
 ## Usage
 ```js
 
-let bbb_shm = require('bbb-api-shm');
+let bbb_shm = require('bbb-api');
 
 let credentials = {
   salt: salt, //Your server salt here
