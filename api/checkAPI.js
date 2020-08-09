@@ -52,5 +52,13 @@ exports.check = async (Cred, api, data) => {
   if (api !== "" && api === "updateRecordings") {
     let finalResponse = await updateRecordings.bbbupdateRecordings(Cred, data);
     return finalResponse;
+  } else {
+    let finalResponse = {
+      response: {
+        message: "Wrong API call",
+        returncode: false,
+      },
+    };
+    return finalResponse;
   }
 };
